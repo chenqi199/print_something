@@ -1,0 +1,52 @@
+<DOCTYPEhtmlPUBLIC "//W3C//DTDXHTML1.0Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <style type="text/css">/*我也是新手成长起来的，不会的就问我的，百度联系*/
+    *{padding:0px;}
+    body{background-color: #75787a;}
+    #nav{width:100%;height:50px;background-color: #5bff9e;}
+    ul{list-style:none;}
+    li{float:left;width:100px;height:50px;}
+    a{color:#FFFFFF;text-decoration:none;display:block;line-height:50px;text-align:center;}a:hover{background-color:#00FF33;}
+    #nav ul ul.sub{background-color: #00FFFF;width: 100px;
+        /*想让二级导航横着排列，改这里的大小*/
+        height:300px;border:solid 0px;}
+    #nav ul ul{visibility:hidden;}
+    /*这是关键*/
+    #nav ul li:hover ul{visibility:visible;}
+    /*这是关键*/
+    </style>
+    <title>css制作二级导航</title>
+</head>
+<body>
+<div id="nav" >
+    <ul>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">你好</a>
+            <ul class="sub">
+                <li><a href="#">世界</a></li>
+                <li><a href="#">非常</a></li>
+                <li><a href="#">美好</a></li>
+                <li><a href="#">希望</a></li>
+            </ul>
+        </li>
+        <li><a href="#">我好</a>
+            <ul class="sub">
+                <li><a href="#">健康</a></li>
+                <li><a href="#">幸福</a></li>
+                <li><a href="#">美好</a></li>
+                <li><a href="#">希望</a></li>
+            </ul>
+        </li>
+        <li><a href="#">大家好</a>
+            <ul class="sub">
+                <li><a href="#">健康</a></li>
+                <li><a href="#">幸福</a></li>
+                <li><a href="#">美好</a></li>
+                <li><a href="#">希望</a></li>
+            </ul>
+        </li>
+        <li><a href="#">憧憬集团</a></li>
+    </ul>
+</div>
+</body>
+</html>

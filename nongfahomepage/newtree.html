@@ -1,0 +1,145 @@
+<!doctype html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>首页——模块管理</title>
+
+    <link href='css/style.css' rel='stylesheet'/>
+    <link href='jstree/dist/themes/default/style.min.css' rel="stylesheet"/>
+
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="jstree/dist/jstree.js"></script>
+    <style>
+
+
+    </style>
+</head>
+
+<body>
+<div class="header">
+    <div class="logo"><img src="images/logo.png"/></div>
+    <div class="mune" id="nav">
+        <ul>
+            <li><a href="#">首　页</a></li>
+            <li><a href="#" onclick="modulemanager()">模块管理</a>
+
+            </li>
+            <li><a href="#">档案管理</a></li>
+            <li><a href="#">系统维护</a></li>
+        </ul>
+    </div>
+
+</div>
+<div class="main">
+    <div class="left" id="leftnavgator">
+        <p>模块管理<a href="#"></a></p>
+
+        <div class="mune_l">
+            <div id="modulemanagetree" class="tree-demo">
+            </div>
+
+
+            <div class="right">
+                <div class="tz_gonggao"><a href="#">通知公告通知公告通知公告通知公告通知公告通知公告</a><a href="#" class="guanbi"></a></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="width: 84%;height: 550px;float: right" id="rightdiv">
+
+</div>
+
+
+<script type="text/javascript">
+
+
+    var UITree = function () {
+        var tree = $('#modulemanagetree');
+
+        var ajaxTreeSample = function () {
+
+            /*var addBtn = $('.form-actions button:eq(0)');
+             var editeBtn = $('.form-actions button:eq(1)');
+             var delBtn = $('.form-actions button:eq(2)');
+
+             addBtn.attr("disabled","disabled");
+             editeBtn.attr("disabled","disabled");
+             delBtn.attr("disabled","disabled");
+             */
+            tree.jstree({
+                "core": {
+                    "themes": {
+                        "responsive": false
+                    },
+                    // so that create works
+                    "check_callback": true,
+                   /* 'data': {
+
+
+                        'url': 'http://10.6.30.122:8088/tansonjsondemo/menu/getmenu.do',
+                        'data': function (node) {
+                            return {
+                                'parentId': node.id === '#' ? "-1" : node.id
+                            };
+                        }
+                    }*/
+
+
+                    'data' : function (node, callback) {
+
+                        $.ajax({
+                            type: "get",
+                            'url': 'http://10.6.30.122:8088/tansonjsondemo/menu/getmenu.do',
+                            data:{"parentId":  node.id === '#' ? "-1" : node.id},
+                            dataType: "json",
+                            async: false,
+                            success: function (result) {
+                                jsonarray = result;
+
+                            }
+
+                        });
+                        callback.call(this, jsonarray);
+                        alert(JSON.stringify(jsonarray))
+                    }
+                }
+            }).bind("click.jstree", function (event) {
+                var eventNodeName = event.target.nodeName;
+                if (eventNodeName == 'INS') {
+                    return;
+                } else if (eventNodeName == 'A') {
+                    var id = $(event.target).parents('li').attr('id');//选择的id值
+                    if (isNaN(id)) {
+                        parent = id;
+                    }
+                    else {
+                        parent = "" + id;
+
+
+                    }
+                }
+            });
+
+
+        };
+        return {
+            // main function to initiate the module
+            init: function () {
+                ajaxTreeSample();
+            },
+            refresh: function () {
+                tree.jstree("refresh");
+            }
+        };
+
+    }();
+
+
+    function modulemanager() {
+        UITree.init();
+    }
+</script>
+
+</body>
+</html>

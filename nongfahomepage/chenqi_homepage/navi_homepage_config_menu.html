@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+</head>
+<body>
+
+<div style="display:none" >
+
+
+</div>
+<div style="display:none"></div>
+<!--样式表--><link href="../css/main0.css" rel="stylesheet" type="text/css" id="cssfile" />
+<link href="../css/SpryAccordion1.css" rel="stylesheet" type="text/css" />
+<script src="../js/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="../js/SpryAccordion.js" type="text/javascript"></script>
+<script src="../js/CommonFunction.js" type="text/javascript"></script>
+
+<table width="98%" border="0" cellspacing="0" cellpadding="0" class="left_mod">
+    <tr>
+        <td class="head"><table width="98%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <p>系统维护<a href="#"></a></p>
+            </tr>
+        </table>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="conterbox">
+
+            <div id="Accordion1" class="Accordion">
+                <div class="AccordionPanel">
+                    <div class="AccordionPanelTab" onclick="opendefaultview('organization');"><span><img src="/ShouYe/images/icon_page.gif" width="15" height="16" align="absmiddle"  />&nbsp&nbsp组织机构</span></div>
+                    <div class="AccordionPanelContent"><div class="sub">
+                        <li class="menuList">
+                            <a href="../org.nsf/viewTemplateForOneCategory?openform&ViewName=UnitByNameForth&FormName=Unit" target="mainFrame">查看机构</a>
+                        </li>
+                        <li class="menuList">
+                            <a href="/public/unit.nsf/ListToSort?openform&viewName=UnitByUpID&needShowName=机构全称‖机构简称&needShowField=UnitFullName‖UnitName&SelList=<计算的值>" target="mainFrame">排序机构</a>
+                        </li>
+                        <li class="menuList">
+                            <a href="../org.nsf/viewTemplateForOneCategory?openform&ViewName=Unit_NotInCurFolder&FormName=Unit" class="actuator" target="mainFrame">查看机构（其他目录）</a>
+                        </li>
+
+
+                        <li class="mainMenu"><ul class="menuList_fu">
+                            <li class="menubar">
+                                <a href="#" id="read_org_ry" class="actuator" onclick="show_hide('read_orgMenu_ry')">人员管理</a>
+                                <ul id="read_orgMenu_ry"  style="display:none">
+                                    <li display="<计算的值>">
+                                        <a href="../org.nsf/getPersonForm?openform" class="actuator" target="mainFrame">提取人员</a>
+                                    </li>
+                                    <li>
+                                        <a href="../org.nsf/ViewTemplateForTwoCategory?openform&ViewName=AllPeoByManageBankForth" class="actuator" target="mainFrame">个人配置</a>
+                                    </li>
+                                    <li>
+                                        <a href="../org.nsf/ViewTemplateForTwoCategory_bmzh?openform&ViewName=AllPeoByManageBankForth" class="actuator" target="mainFrame">个人配置</a>
+                                    </li>
+                                    <li>
+                                        <a href="../org.nsf/WFMSelectPeoples_xml?openform&SingleFlag=1&PublicFlag=1&curbank=<计算的值>&curbankid=<计算的值>" class="actuator" target="_blank">新建公共账号</a>
+                                    </li>
+                                    <li>
+                                        <a href="../org.nsf/ViewTemplateBySoleDeptMultiCA?openform&ViewName=AllCommonAccount&FormName=WFMSelectPeoples_xml" class="actuator" target="mainFrame">公共账号</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        </li>
+
+                        <li class="mainMenu"><ul class="menuList_fu">
+                            <li class="menubar">
+                                <a href="#" id="read_org_bm" class="actuator" onclick="show_hide('read_orgMenu_bm')">部门管理</a>
+                                <ul id="read_orgMenu_bm" style="display:none">
+                                    <li>
+                                        <a href="../org.nsf/Group?openform&id=new" class="actuator" target="mainFrame">新建部门</a>
+                                    </li>
+                                    <li>
+                                        <a href="../org.nsf/ViewTemplateForTwoCategory?openform&ViewName=GroupByBankNameForth&FormName=Group" class="actuator" target="mainFrame">部门配置</a>
+                                    </li>
+                                    <li>
+                                        <a href="../org.nsf/ViewTemplateForTwoCategory_bmzh?openform&ViewName=GroupByBankName&FormName=Group" class="actuator" target="mainFrame">部门配置</a>
+                                    </li>
+                                    <li>
+                                        <a href="../org.nsf/ViewTemplateForOneCategory_DeptRecord?openform&ViewName=HistoryDepartByManageBank&FormName=DepartChangeRecord" class="actuator" target="mainFrame">变更记录</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        </li>
+
+                        <li class="mainMenu"><ul class="menuList_fu">
+                            <li class="menubar">
+                                <a href="#" id="read_org_refresh" class="actuator" onclick="show_hide('read_orgMenu_refresh')">更新管理</a>
+                                <ul id="read_orgMenu_refresh" style="display:none">
+                                    <li>
+                                        <a href="../org.nsf/WFMRefreshDepart?openform&RefreshFlag=ALLDepart" class="actuator" target="mainFrame">刷新所有部门</a>
+                                    </li>
+                                    <li>
+                                        <a href="../WEBOA_NAMEBOOK.NSF/KeepSameToOrg?openagent" class="actuator" target="mainFrame">同步常用发送对象</a>
+                                    </li>
+                                    <li>
+                                        <a href="../org.nsf/WFMSynchDangAn?openform" class="actuator" target="mainFrame">全量向档案同步</a>
+                                    </li>
+                                    <li>
+                                        <a href="/PUBLIC/unit.nsf/frm_NewOrOldConfig?openform" class="actuator" target="mainFrame">各机构新旧系统配置</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                        </li>
+                    </div></div>
+                </div>
+
+
+                <div class="AccordionPanel">
+                    <div class="AccordionPanelTab" onclick="opendefaultview('flowconfig');"><span><img src="/ShouYe/images/icon_page.gif" width="15" height="16" align="absmiddle"  /> 流程控制</span></div>
+                    <div class="AccordionPanelContent"><div class="sub">
+                        <li class="menuList"><a href="../flowconfig.nsf/SelectCreateType?openform" target="_blank">新建流程</a></li>
+                        <li class="menuList"><a href="../flowconfig.nsf/flowmain?openform&isTemp=0" target="_blank">新建模板</a></li>
+                        <li class="menuList"><a href="../flowconfig.nsf/ViewTemplateForTwoCategory_flow?openform&ViewName=vwMainFlow_BankName&FormName=SelectCreateType" target="mainFrame">主流程</a></li>
+                        <li class="menuList"><a href="../flowconfig.nsf/ViewTemplateForTwoCategory_flow?openform&ViewName=viewsub_BankName&FormName=SelectCreateType" target="mainFrame">子流程</a></li>
+                        <li class="mainMenu"><ul class="menuList_fu">
+                            <li class="menubar">
+                                <a href="#" id="read_system_mb" class="actuator" onclick="show_hide('read_systemMenu_mb')">流程模版</a>
+                                <ul id="read_systemMenu_mb"  style="display:none">
+                                    <li>
+                                        <a href="../flowconfig.nsf/ViewTemplateForOneCategory_template?openform&ViewName=vwBaseFlowTemp_BankName" class="actuator" target="mainFrame">基础模版</a>
+                                    </li>
+                                    <li class="mainMenu"><ul class="menuList_fu">
+                                        <li class="menubar">
+                                            <a href="#" id="read_flow_gl" class="actuator" onclick="show_hide('read_flowMenu_gl');opendefaultview('flowtemplate');">普通模版</a>
+                                            <ul id="read_flowMenu_gl"  style="display:none">
+                                                <li>
+                                                    <a href="../flowconfig.nsf/ViewTemplateForTwoCategory_template?openform&ViewName=vwMainFlowTemp_BankName" class="actuator" target="mainFrame">主流程</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../flowconfig.nsf/ViewTemplateForTwoCategory_template?openform&ViewName=vwSubFlowTemp_BankName" class="actuator" target="mainFrame">子流程</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        </li>
+                        <li class="menuList"><a href="../flowconfig.nsf/frm_TemplateInitial?openform" target="mainFrame">流程模版初始化</a></li>
+                        <li class="menuList"><a href="../flowconfig.nsf/ViewTemplateForTwoCategory_flow?openform&ViewName=viewsubTemp_BankName" target="mainFrame">子建流程模板</a></li>
+                    </div></div>
+                </div>
+
+
+                <div class="AccordionPanel">
+                    <div class="AccordionPanelTab" onclick="opendefaultview('sysconfig');"><span><img src="/ShouYe/images/icon_page.gif" width="15" height="16" align="absmiddle"  /> 初始化配置</span></div>
+                    <div class="AccordionPanelContent"><div class="sub">
+                        <li class="menuList"><a href="../WEBOA_HOMEPAGE.NSF/setUserinitpassword?openform" target="mainFrame">密码初始化</a></li>
+                        <li class="menuList"><a href="../WEBOA_SYSCONFIG.NSF/WebFM_Config?openform" target="mainFrame">数据交换中心</a></li>
+                        <li class="menuList"><a href="../WEBOA_SYSCONFIG.NSF/ZHPZ?openform" target="mainFrame">总行名称配置</a></li>
+                        <li class="menuList"><a href="../WEBOA_SYSCONFIG.NSF/frm_interfaceConfig?openform" target="mainFrame">档案接口配置</a></li>
+                        <li class="mainMenu"><ul class="menuList_fu">
+                            <li class="menubar">
+                                <a href="#" id="read_system_fk" class="actuator" onclick="show_hide('read_systemMenu_fk')">分库设置</a>
+                                <ul id="read_systemMenu_fk"  style="display:none">
+                                    <li>
+                                        <a href="../WEBOA_SYSCONFIG.NSF/WFMSplitDBInitialize?openform" class="actuator" target="mainFrame">分库初始化</a>
+                                    </li>
+                                    <li>
+                                        <a href="../WEBOA_SYSCONFIG.NSF/ViewTemplateForOneCategory?openform&ViewName=WVWSplitDBSetting" class="actuator" target="mainFrame">查看配置文档</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        </li>
+                    </div></div>
+                </div>
+
+
+                <div class="AccordionPanel">
+                    <div class="AccordionPanelTab" onclick="opendefaultview('sysconfig');"><span><img src="/ShouYe/images/icon_page.gif" width="15" height="16" align="absmiddle"  /> 基本配置</span></div>
+                    <div class="AccordionPanelContent"><div class="sub">
+                        <li class="menuList"><a href="../WEBOA_SYSCONFIG.NSF/frm_ModelBaseConfig?openform" target="mainFrame">基本参数</a></li>
+                        <li class="menuList"><a href="../WEBOA_SYSCONFIG.NSF/frm_UnWorkDay?openform" target="mainFrame">节假日维护</a></li>
+
+                        <li class="menuList"><a href="../WEBOA_SYSCONFIG.NSF/frmCustodyDeadline?openform"
+                                                target="mainFrame">保管期限配置</a></li>
+                        <li class="menuList"><a href="../WEBOA_SYSCONFIG.NSF/ViewTemplateForOneCategory_year?openform&ViewName=WVWUnWorkDay_web&FormName=frm_UnWorkDay" target="mainFrame">节假日维护</a></li>
+                        <li class="menuList"><a href="../WEBOA_SYSCONFIG.NSF/OpenConfigForm?openform&viewName=WVWDbPath&formName=WFMDbPath" target="mainFrame">数据库路径</a></li>
+                        <li class="menuList"><a href="../APPCONFIG.NSF/agGetGwInfo?openagent" target="mainFrame">岗位配置</a></li>
+                        <li class="menuList"><a href="../WEBOA_SYSCONFIG.NSF/ViewTemplateForSoleManage?openform&ViewName=WVWManagerSetting&formName=ManagerSetting"  target="mainFrame">分级维护</a></li>
+                        <li class="menuList"><a href="../WEBOA_SYSCONFIG.NSF/ViewTemplateForSoleManage_Two?openform&ViewName=WVWManagerSetting_Two&formName=ManagerSetting"  target="mainFrame">分级维护</a></li>
+                        <li class="menuList"><a href="../WEBOA_SYSCONFIG.NSF/frm_zhiwuConfig?openform" target="mainFrame">职务配置</a>
+                        </li>
+
+                        <li class="menuList"><a href="/PUBLIC/WEBOA_NAMEBOOK.NSF/ViewTemplateBySoleDeptForEvery?openform&ViewName=WVWclerkposition&filepath=<计算的值>&formname=frmpositionconf" target="mainFrame">职位配置</a></li>
+                        <li class="menuList"><a href="/PUBLIC/WEBOA_NAMEBOOK.NSF/ViewTemplateBySoleDeptForEvery?openform&ViewName=WVWSchConf&filepath=<计算的值>&formname=frmSchArea" target="mainFrame">职位权限配置</a></li>
+                        <li class="menuList">
+                            <a href="../WEBOA_SENDFILE.NSF/ViewTemplateForOneCategoryByOperation?openform&ViewName=WVWSendGroupConfig&FormName=WFMSendGroup" target="mainFrame">群组配置</a>
+                        </li>
+                        <li class="menuList"><a href="../WEBOA_SYSCONFIG.NSF/frm_CounterSignCfg?openform" target="mainFrame">会签时限配置</a></li>
+                    </div></div>
+                </div>
+
+
+
+                <div class="AccordionPanel">
+                    <div class="AccordionPanelTab" onclick="opendefaultview('topicword');"><span><img src="/ShouYe/images/icon_page.gif" width="15" height="16" align="absmiddle"  /> 主题词库</span></div>
+                    <div class="AccordionPanelContent"><div class="sub">
+                        <li class="menuList" style="display:none;"><a href="../WEBOA_TOPICWORD.NSF/WFMOpenCfgInfo?OpenForm&flag=WFMTopicConfigOne" target="mainFrame">配置类别词</a></li>
+                        <li class="menuList" style="display:none;"><a href="../WEBOA_TOPICWORD.NSF/ViewTemplateForOneCategory_ztc?Openform&ViewName=WVTopicCfgTwo&FormName=WFMTopicConfigTwo" target="mainFrame">配置类属词</a></li>
+                        <li class="menuList"><a href="../WEBOA_TOPICWORD.NSF/WFMOpenCfgInfo?Openform&flag=WFMPublicCfg" target="mainFrame">配置公用类属词</a></li>
+                        <li class="menuList"><a href="../WEBOA_TOPICWORD.NSF/WFMOpenCfgInfo?Openform&flag=WFMFileTypeCfg" target="mainFrame">配置文种词</a></li>
+                    </div></div>
+                </div>
+
+
+                <div class="AccordionPanel">
+                    <div class="AccordionPanelTab" onclick="opendefaultview('logmanagement');"><span><img src="/ShouYe/images/icon_page.gif" width="15" height="16" align="absmiddle"  /> 日志管理</span></div>
+                    <div class="AccordionPanelContent"><div class="sub">
+
+                        <li class="mainMenu"><ul class="menuList_fu">
+                            <li class="menubar">
+                                <a href="#" id="read_log_cz" class="actuator" onclick="show_hide('read_logMenu_cz')">操作日志</a>
+                                <ul id="read_logMenu_cz"  style="display:none">
+                                    <li>
+                                        <a href="/<计算的值>/ViewTemplateForOneCategoryLog?openform&ViewName=VWDSPLoperatelog" class="actuator" target="mainFrame">本年日志</a>
+                                    </li>
+                                    <li>
+                                        <a href="/<计算的值>/ViewTemplateForOneCategoryLog?openform&ViewName=VWDSPLoperatelog" class="actuator" target="mainFrame">去年日志</a>
+                                    </li>
+                                    <li>
+                                        <a href="/<计算的值>/ViewTemplateForOneCategoryLog?openform&ViewName=VWDSPLoperatelog" class="actuator" target="mainFrame">前年日志</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        </li>
+                        <li class="mainMenu"><ul class="menuList_fu">
+                            <li class="menubar">
+                                <a href="#" id="read_log_gl" class="actuator" onclick="show_hide('read_logMenu_gl')">管理日志</a>
+                                <ul id="read_logMenu_gl"  style="display:none">
+                                    <li>
+                                        <a href="/<计算的值>/ViewTemplateForOneCategoryLog?openform&ViewName=VWDSPLmanagelog" class="actuator" target="mainFrame">本年日志</a>
+                                    </li>
+                                    <li>
+                                        <a href="/<计算的值>/ViewTemplateForOneCategoryLog?openform&ViewName=VWDSPLmanagelog" class="actuator" target="mainFrame">去年日志</a>
+                                    </li>
+                                    <li>
+                                        <a href="/<计算的值>/ViewTemplateForOneCategoryLog?openform&ViewName=VWDSPLmanagelog" class="actuator" target="mainFrame">前年日志</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        </li>
+
+                        <li class="mainMenu"><ul class="menuList_fu">
+                            <li class="menubar">
+                                <a href="#" id="read_log_dl" class="actuator" onclick="show_hide('read_logMenu_dl')">登录日志</a>
+                                <ul id="read_logMenu_dl"  style="display:none">
+                                    <li>
+                                        <a href="/<计算的值>/ViewTemplateForOneCategoryLog?openform&ViewName=VWDSPLloginlog" class="actuator" target="mainFrame">本年日志</a>
+                                    </li>
+                                    <li>
+                                        <a href="/<计算的值>/ViewTemplateForOneCategoryLog?openform&ViewName=VWDSPLloginlog" class="actuator" target="mainFrame">去年日志</a>
+                                    </li>
+                                    <li>
+                                        <a href="/<计算的值>/ViewTemplateForOneCategoryLog?openform&ViewName=VWDSPLloginlog" class="actuator" target="mainFrame">前年日志</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        </li>
+
+                        <li  class="menuList">
+                            <a href="/<计算的值>/ViewTemplateForOneCategoryLog?openform&ViewName=VWDSPLoperatelog" class="actuator" target="mainFrame">操作日志</a>
+                        </li>
+                        <li  class="menuList">
+                            <a href="/<计算的值>/ViewTemplateForOneCategoryLog?openform&ViewName=VWDSPLmanagelog" class="actuator" target="mainFrame">管理日志</a>
+                        </li>
+                        <li  class="menuList">
+                            <a href="/<计算的值>/ViewTemplateForOneCategoryLog?openform&ViewName=VWDSPLloginlog" class="actuator" target="mainFrame">登录日志</a>
+                        </li>
+                        <li class="mainMenu"><ul class="menuList_fu">
+                            <li class="menubar">
+                                <a href="#" id="searchlog" class="actuator" onclick="show_hide('read_searchMenu')">日志查询</a>
+                                <ul id="read_searchMenu"  style="display:none">
+
+                                    <li class="menuList"><a href="../WEBOA_LOG.NSF/newsearchall?openform&substr=logintj" target="mainFrame">登录日志</a></li>
+                                    <li class="menuList"><a href="../WEBOA_LOG<计算的值>.nsf/WFMuserManager?OpenForm" target="mainFrame">用户状态日志查询</a></li>
+                                    <li class="menuList"><a href="../WEBOA_LOG.NSF/newsearchlog?openform" target="mainFrame">用户日志</a></li>
+                                    <li class="menuList"><a href="../WEBOA_LOG.NSF/newsearchhislog?openform" target="mainFrame">用户历史日志</a></li>
+                                    <li class="menuList"><a href="../WEBOA_LOG.NSF/newsearchall?openform&substr=lxtj" target="mainFrame">用户回顾</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        </li>
+                        <li class="menuList"><a href="<计算的值>" target="mainFrame">日志|安全设置</a></li>
+
+
+                    </div></div>
+                </div>
+
+
+                <div class="AccordionPanel">
+                    <div class="AccordionPanelTab" onclick="opendefaultview('transformwork');"><span><img src="/ShouYe/images/icon_page.gif" width="15" height="16" align="absmiddle"  /> 工作移交</span></div>
+                    <div class="AccordionPanelContent"><div class="sub">
+                        <li class="menuList">
+                            <a href="../WEBOA_WARRANT.NSF/frm_JobChange?openform" target="mainFrame">新建工作移交</a>
+                        </li>
+                        <li class="menuList">
+                            <a href="../WEBOA_WARRANT.NSF/ViewTemplateForOneCategory?openform&ViewName=vw_JobToDo" target="mainFrame">未移交工作</a>
+                        </li>
+                        <li class="menuList">
+                            <a href="../WEBOA_WARRANT.NSF/ViewTemplateForOneCategory?openform&ViewName=vw_JobDoing" target="mainFrame">移交中工作</a>
+                        </li>
+                        <li class="menuList">
+                            <a href="../WEBOA_WARRANT.NSF/ViewTemplateForOneCategory?openform&ViewName=vw_JobDone" target="mainFrame">已移交工作</a>
+                        </li>
+                    </div></div>
+                </div>
+
+
+
+                <div class="AccordionPanel">
+                    <div class="AccordionPanelTab" onclick="opendefaultview('designdictionary');"><span><img src="/ShouYe/images/icon_page.gif" width="15" height="16" align="absmiddle" /> 设计词典</span></div>
+                    <div class="AccordionPanelContent"><div class="sub">
+                        <li class="menuList"><a href="../WEBOA_ECDICT.NSF/WebFM_DictList?openform" target="mainFrame">数据词典</a></li>
+                        <li class="menuList"><a href="../WEBOA_ARCHMANAGE.NSF/WebFM_DictList?openform" target="mainFrame">档案词典</a></li>
+                        <li class="menuList"><a href="../APPCONFIG.NSF/AppSet?openform" target="mainFrame">业务分类</a></li>
+                        <li class="menuList"><a href="../APPCONFIG.NSF/ViewTemplateForOneCategory?openform&ViewName=vw_AppSet&FormName=AppSet" target="mainFrame">业务分类</a></li>
+                        <li class="menuList"><a href="../APPCONFIG.NSF/ViewTemplateForOneCategory?openform&ViewName=viewDesignSet&FormName=DesignSet" target="mainFrame">设计元素</a></li>
+                        <li class="menuList"><a href="../APPCONFIG.NSF/WFMWordTemplate?openform" target="mainFrame">模板管理</a></li>
+                        <li class="menuList"><a href="../APPCONFIG.NSF/frm_OpenFieldsConfig?openform" target="mainFrame" title="用于工作处理">读作者域</a></li>
+                        <li class="menuList"><a href="../APPCONFIG.NSF/ViewTemplateForOneCategory?openform&ViewName=WVWViewCloumnType&FormName=dynamicConfigViewColumns" target="mainFrame">视图配置</a></li>
+                        <li class="menuList"><a href="../APPCONFIG.NSF/ViewTemplateForOneCategory?openform&ViewName=vw_configModel&FormName=configModelForm" target="mainFrame">视图配置</a></li>
+                        <li class="menuList"><a href="../APPCONFIG.NSF/ViewTemplateForOneCategory?openform&ViewName=vw_viewSearchSetForShow&FormName=frm_viewSearchSet" target="mainFrame">视图查询条件配置</a></li>
+                        <li class="menuList"><a href="../APPCONFIG.NSF/DesignSet?openform" target="mainFrame">新建设计元素</a></li>
+
+                        <li class="mainMenu"><ul class="menuList_fu">
+                            <li class="menubar">
+                                <a href="#" id="read_sjcd_Desktop" class="actuator" onclick="show_hide('read_sjcdMenu_Desktop')">配置快捷键</a>
+                                <ul id="read_sjcdMenu_Desktop"  style="display:none">
+                                    <li>
+                                        <a href="../APPCONFIG.NSF/configMenuForm?openform" class="actuator" target="mainFrame">新建</a>
+                                    </li>
+                                    <li>
+                                        <a href="../APPCONFIG.NSF/ViewTemplateForOneCategory?openform&ViewName=vw_configMenu&FormName=configMenuForm" class="actuator" target="mainFrame">查看</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        </li>
+
+                        <li class="mainMenu"><ul class="menuList_fu">
+                            <li class="menubar">
+                                <a href="#" id="read_system_DesktopShow" class="actuator" onclick="show_hide('read_systemMenu_DesktopShow')">配置桌面展示区</a>
+                                <ul id="read_systemMenu_DesktopShow"  style="display:none">
+                                    <li>
+                                        <a href="../APPCONFIG.NSF/configZhanShi?openform" class="actuator" target="mainFrame">新建</a>
+                                    </li>
+                                    <li>
+                                        <a href="../APPCONFIG.NSF/ViewTemplateForOneCategory?openform&ViewName=vw_configZsList&FormName=configZhanShi" class="actuator" target="mainFrame">查看</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        </li>
+                        <li class="mainMenu"><ul class="menuList_fu">
+                            <li class="menubar">
+                                <a href="#" id="read_gwgl_manage" class="actuator" onclick="show_hide('read_gwglMenu_manage');return false;">配置模块菜单</a>
+                                <ul id="read_gwglMenu_manage"  style="display:none">
+                                    <li>
+                                        <a href="../APPCONFIG.NSF/ConfigModelForm?openform" class="actuator" target="mainFrame">新建</a>
+                                    </li>
+                                    <li>
+                                        <a href="../APPCONFIG.NSF/ViewTemplateForOneCategory?openform&ViewName=vw_configModel&FormName=configModelForm" class="actuator" target="mainFrame">查看</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        </li>
+                        <li class="mainMenu"><ul class="menuList_fu">
+                            <li class="menubar">
+                                <a href="#" id="read_ljsz" class="actuator" onclick="show_hide('read_ljszMenu')">公共链接设置</a>
+                                <ul id="read_ljszMenu" style="display:none">
+                                    <li>
+                                        <a href="../WEBOA_PERSONAL.NSF/WebFMljsz?openform" class="actuator" target="mainFrame">新建</a>
+                                    </li>
+                                    <li>
+                                        <a href="../WEBOA_PERSONAL.NSF/ViewDefaultForDB?openform&ViewName=WebVWLinkSetByPerson" class="actuator" target="mainFrame">查看个人链接</a>
+                                    </li>
+                                    <li>
+                                        <a href="../WEBOA_PERSONAL.NSF/DisplayFormForManagerLink?openform&ViewName=WebVWLinkSetByBank" class="actuator" target="mainFrame">查看链接</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+
+                            <li class="menuList"><a href="../WEBOA_SYSCONFIG.NSF/OpenNote?openform" target="mainFrame">短信发送</a></li>
+                            <li class="menuList"><a href="../WEBOA_SYSCONFIG.NSF/FmAgentConfig?openform" target="mainFrame">转授权配置</a></li>
+                            <li class="menuList"><a href="../WEBOA_HELP.NSF/ViewTemplateForOneCategory?openform&ViewName=WebVWckhelp" target="mainFrame">用户指南</a></li>
+
+                        </ul>
+                        </li>
+                    </div></div>
+                </div>
+                <script type="text/javascript">
+                    var Accordion1 = new Spry.Widget.Accordion("Accordion1");
+                </script>
+            </div>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

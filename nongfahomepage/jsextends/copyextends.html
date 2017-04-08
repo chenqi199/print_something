@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js_copy_extends</title>
+</head>
+<body>
+<script type="text/javascript">
+    function Amlimal(){
+        this.name= name || 'cat';
+        this.sleep = function(){
+            return this.name+'==============sleeping';
+        }
+
+    }
+
+    function Cat(name){
+        var animal = new Amlimal();
+        for(var p in animal){
+            Cat.prototype[p] = animal[p];
+        }
+        Cat.prototype.name = name || 'tom';
+    }
+
+    var cat = new Cat();
+    console.log(cat.name);
+    console.log(cat.sleep())
+</script>
+</body>
+</html>

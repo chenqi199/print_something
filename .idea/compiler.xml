@@ -24,12 +24,22 @@
         <processorPath useClasspath="true" />
         <module name="client" />
         <module name="printer_to_user" />
+        <module name="stdproc-new" />
+      </profile>
+      <profile default="false" name="Annotation profile for Tansundome" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="Tansundome" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="client" target="1.5" />
       <module name="print_something" target="1.5" />
       <module name="printer_to_user" target="1.5" />
+      <module name="stdproc-new" target="1.5" />
+      <module name="Tansundome" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
