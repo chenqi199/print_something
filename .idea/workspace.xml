@@ -2,300 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a97e8e1-e325-41f1-9a27-8f847195c9d8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/bangong_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/form_btn_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/form_btn_02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/form_btn_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/head_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/icon_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/icon_page.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/left_menuBG.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/left_menuBG2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/left_mune.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/left_munebg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/left_munebg02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/menu_line.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/menu_line_obj.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/mune.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/mune02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/nav.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/qicao.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/qicao02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/qicao_wd.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/qicao_wd02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/tab_bg2_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/tab_bg2_02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/tab_bg2_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/tab_bg_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/tab_bg_02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/tab_bg_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/tongxunlu_btn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/images/top_gongju.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/jstree/dist/themes/default-dark/32px.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/jstree/dist/themes/default-dark/40px.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/jstree/dist/themes/default-dark/throbber.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/jstree/dist/themes/default/32px.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/jstree/dist/themes/default/32px_line.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/jstree/dist/themes/default/32px_original.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/jstree/dist/themes/default/40px.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/jstree/dist/themes/default/throbber.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/WEB-INF/lib/qiniu.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/images/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/images/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/images/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/images/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/images/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/images/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/images/class_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/images/col-search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/images/yun.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/photoUp/a1349183e3924d77b91e247d2eab7fba/18750ea030dd409897473a45b34b1d6c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/photoUp/banner1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/photoUp/delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/photoUp/jin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/photoUp/team1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/photoUp/team10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/photoUp/team11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/photoUp/team12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/photoUp/tie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/photoUp/tong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/photoUp/yin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/photoUp/zuan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/stdproc_new_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/stdproc_new_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_miemiedev_mybatis_paginator_1_2_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_14_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_jms_jms_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__opensymphony_oscache_2_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_client_5_13_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_core_5_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_jms_pool_5_13_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_pool_5_13_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_kahadb_5_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_protobuf_activemq_protobuf_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_9_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_9_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jms_1_1_spec_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_0_1B_spec_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_solr_solr_solrj_6_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_8_0_32.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjtools_1_8_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_hawtbuf_hawtbuf_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_hawtdispatch_hawtdispatch_1_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_hawtdispatch_hawtdispatch_transport_1_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_mqtt_client_mqtt_client_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasig_cas_client_cas_client_core_3_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasypt_jasypt_1_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20090211.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_noggit_noggit_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_0_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_0_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_0_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jms_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn/src/aaa.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn/src/com/cn/mytest/BaseHttpUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn/src/com/cn/mytest/HTTPResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn/src/com/cn/mytest/Header.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn/src/com/cn/mytest/HttpClientManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn/src/com/cn/mytest/HttpClientUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn/src/com/cn/mytest/HttpRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn/src/com/cn/readandwrite/MyTestGetFilePah.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn/src/com/cn/readandwrite/ReadFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learn/stdproc-new.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/bibao/bibaodemo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/chenqi_homepage/homepage_js/homepage_main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/chenqi_homepage/homepage_js/navi_homepage_defultmenu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/chenqi_homepage/homepage_js/navi_module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/chenqi_homepage/homepage_js/nvai_homepage_modulemanage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/chenqi_homepage/navi_homepage_config_menu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/chenqi_homepage/navi_homepage_modulemanage_tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/chenqi_homepage/navi_homepagedefultmenu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/chenqi_homepage/navi_module_zs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/chenqi_homepage/newhomepage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/chenqi_zs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/chenqitestindex.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/chqi_modulemanager.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/css/SpryAccordion1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/css/chenqi_homepage/chenqi_homepage_main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/css/main0.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/css/moduletree.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/daiban.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/dirtree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/domonohomepage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/index1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/js/CommonFunction.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/js/SpryAccordion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/js/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/js/initializers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/js/jquery-1.9.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/js/jquery.tabslet.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/js/json2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/js/ziliao.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/jsextends/copyextends.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/jsextends/instanceextends.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/jsextends/jishengextends.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/jsextends/jsconstrateextends.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/jsextends/jsextends.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/jsextends/jszuheextends.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/jstree/LICENSE-MIT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/jstree/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/jstree/dist/jstree.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/jstree/dist/jstree.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/jstree/dist/themes/default-dark/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/jstree/dist/themes/default-dark/style.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/jstree/dist/themes/default/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/jstree/dist/themes/default/style.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/jstree/jstree.jquery.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/newtree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/nongfahomepage.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/sentdoc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/test/1111.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nongfahomepage/test/treegetajaxres.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/.classpath" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/.externalToolBuilders/org.eclipse.jdt.core.javabuilder.launch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/.externalToolBuilders/org.eclipse.wst.validation.validationbuilder (1).launch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/.externalToolBuilders/org.eclipse.wst.validation.validationbuilder.launch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/.project" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/.settings/.jsdtscope" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/.settings/org.eclipse.core.resources.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/.settings/org.eclipse.jdt.core.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/.settings/org.eclipse.m2e.core.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/.settings/org.eclipse.m2e.wtp.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/.settings/org.eclipse.wst.common.component" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/.settings/org.eclipse.wst.common.project.facet.core.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/.settings/org.eclipse.wst.jsdt.ui.superType.container" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/.settings/org.eclipse.wst.jsdt.ui.superType.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/.settings/org.eclipse.wst.validation.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/Tansundome.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/doc/管理端需求.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/controller/VoteController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/dao/VoteMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/model/Log.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/model/Vote.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/service/VoteServiceI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/service/VoteServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/cache/OSCacheManage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/cache/ObjectTranscoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/cache/RedisAPI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/common/ChangeBigSequence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/db/ReadWriteDataSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/db/ReadWriteDataSourceDecision.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/db/ReadWriteDataSourceProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/db/TheStringTypeHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/exception/ExceptionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/formater/AES.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/formater/AESDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/formater/Base64.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/formater/Config.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/formater/DateFormater.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/formater/GetDefaultPicture.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/formater/JSONFormater.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/formater/MD5Util.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/formater/RegUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/formater/UUIDTool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/listener/InitMenuListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/logging/LogAspect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/logging/LogService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/logging/MQLogProducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/logging/MQNoticeQueueProducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/logging/MQTransQueueProducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/logging/NoticeQueueService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/logging/TransQueueService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/net/ServerIPAddress.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/qiniu/AuthUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/security/RequestWrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/security/SXYSecurityConsole.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/security/SXYSecurityFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/security/SXYSessionFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/security/SXYSessionUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/solr/SolrUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/stream/config/Configurations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/stream/servlet/FormDataServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/stream/servlet/Range.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/stream/servlet/StreamException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/stream/servlet/StreamServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/stream/servlet/TokenServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/stream/util/IoUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/java/com/bshinfo/cl/util/stream/util/TokenUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/resources/config/redis.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/resources/mappers/VoteMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/resources/stream-config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/WEB-INF/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/WEB-INF/dataSource.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/WEB-INF/log4j.dtd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/WEB-INF/log4j.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/WEB-INF/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/WEB-INF/spring-activemq.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/WEB-INF/spring-mybatis-multi-datasource.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/WEB-INF/springmvc-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tansunjsondome/src/test/chenqi's test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_14.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_14.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/learn/src/com/cn/mytest/BaseHttpUtil.java" afterPath="$PROJECT_DIR$/learn/src/com/cn/myhttptest/BaseHttpUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/learn/src/com/cn/mytest/HTTPResponse.java" afterPath="$PROJECT_DIR$/learn/src/com/cn/myhttptest/HTTPResponse.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/learn/src/com/cn/mytest/Header.java" afterPath="$PROJECT_DIR$/learn/src/com/cn/myhttptest/Header.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/learn/src/com/cn/mytest/HttpClientManager.java" afterPath="$PROJECT_DIR$/learn/src/com/cn/myhttptest/HttpClientManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/learn/src/com/cn/mytest/HttpClientUtil.java" afterPath="$PROJECT_DIR$/learn/src/com/cn/myhttptest/HttpClientUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/learn/src/com/cn/mytest/HttpRequest.java" afterPath="$PROJECT_DIR$/learn/src/com/cn/myhttptest/HttpRequest.java" />
     </list>
     <ignored path="print_something.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -355,18 +68,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadFile.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReadFile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learn/src/com/cn/readandwrite/ReadFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09660108">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpClientManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/learn/src/com/cn/myhttptest/HttpClientManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3321617">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="BaseHttpUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learn/src/com/cn/mytest/BaseHttpUtil.java">
+        <entry file="file://$PROJECT_DIR$/learn/src/com/cn/myhttptest/BaseHttpUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="130" column="36" selection-start-line="130" selection-start-column="36" selection-end-line="130" selection-end-column="36" />
@@ -485,9 +208,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="391" />
-    <option name="width" value="1368" />
-    <option name="height" value="1040" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -566,6 +290,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="print_something" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="print_something" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -591,10 +333,6 @@
               <option name="myItemId" value="cn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="readandwrite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -615,6 +353,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myhttptest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1120,15 +862,22 @@
       <workItem from="1469776599621" duration="5686000" />
       <workItem from="1491658990962" duration="237000" />
       <workItem from="1491659329188" duration="270000" />
-      <workItem from="1491659959989" duration="744000" />
+      <workItem from="1491659959989" duration="938000" />
     </task>
+    <task id="LOCAL-00001" summary="demo">
+      <created>1491660761444</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1491660761444</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6937000" />
+    <option name="totallyTimeSpent" value="7131000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="391" y="0" width="1368" height="1040" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1139,12 +888,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20756173" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.325477" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24922839" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17309754" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1155,7 +905,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1168,6 +917,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1424,7 +1177,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learn/src/com/cn/mytest/BaseHttpUtil.java">
+    <entry file="file://$PROJECT_DIR$/learn/src/com/cn/myhttptest/BaseHttpUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="130" column="36" selection-start-line="130" selection-start-column="36" selection-end-line="130" selection-end-column="36" />
@@ -1444,8 +1197,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/learn/src/com/cn/readandwrite/ReadFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09660108">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/src/com/cn/myhttptest/HttpClientManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3321617">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding />
         </state>
       </provider>
