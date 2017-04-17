@@ -35,11 +35,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
-      <module name="client" target="1.7" />
-      <module name="print_something" target="1.7" />
-      <module name="printer_to_user" target="1.7" />
+      <module name="client" target="1.5" />
+      <module name="print_something" target="1.5" />
+      <module name="printer_to_user" target="1.5" />
       <module name="stdproc-new" target="1.7" />
-      <module name="Tansundome" target="1.7" />
+      <module name="Tansundome" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
