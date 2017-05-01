@@ -23,7 +23,6 @@ import java.util.Arrays;
 public class HttpClientManager {
 
     public static  CloseableHttpClient httpClient = getDefaultClient();
-
     /**
      * 创建默认的httpclient
      * @return
