@@ -22,10 +22,12 @@ public class ReadFile {
 //            System.out.println(line);
 //        }
         System.out.println(chars);
+
         inputStreamReader.close();
         fileInputStream.close();
 
         return "";
 
     }
+
 }

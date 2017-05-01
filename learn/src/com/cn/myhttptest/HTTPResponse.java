@@ -1,4 +1,4 @@
-package com.cn.mytest;
+package com.cn.myhttptest;
 
 import java.io.UnsupportedEncodingException;
 

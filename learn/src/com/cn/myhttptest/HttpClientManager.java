@@ -1,4 +1,4 @@
-package com.cn.mytest;
+package com.cn.myhttptest;
 
 import org.apache.http.Consts;
 import org.apache.http.client.config.AuthSchemes;
@@ -23,7 +23,6 @@ import java.util.Arrays;
 public class HttpClientManager {
 
     public static  CloseableHttpClient httpClient = getDefaultClient();
-
     /**
      * 创建默认的httpclient
      * @return
