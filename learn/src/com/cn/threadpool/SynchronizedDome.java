@@ -10,7 +10,50 @@ import java.util.concurrent.Executors;
  * Created by 陈奇 on 2017/4/16 0016.
  */
 public class SynchronizedDome {
-    public static void main(String[] args) {
+
+//    public  static final  ThreadLocal<String> threadLocal = new ThreadLocal<>();
+    public  static final  ThreadLocal<String> threadLocal = new ThreadLocal<>();
+
+    public static void main(String[] args) throws InterruptedException {
+//        testThread();
+
+        testLocal();
+    }
+
+    private static void testLocal() throws InterruptedException {
+        Thread t1 = new Thread(){
+            @Override
+            public void run() {
+                threadLocal.set("aaaaaaaaaa");
+                System.out.println("111 set ok");
+                try {
+                    Thread.currentThread().sleep(5000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                System.out.println("11111"+threadLocal.get());
+            }
+
+        };
+        Thread t2 = new Thread(){
+            @Override
+            public void run() {
+                threadLocal.set("bbbb");
+                System.out.println("222 set ok");
+                System.out.println("2222"+threadLocal.get());
+            }
+
+        };
+        t1.start();
+        t2.start();
+        t1.join();
+        t2.join();
+
+
+
+    }
+
+    private static void testThread() {
         Map ticketMap = new HashMap<String, Boolean>();//票池：<票编号,是否已出售>
         for(int i = 1; i <= 100; i++){//生成100张火车票到票池
             ticketMap.put("T" + i, false);
@@ -40,7 +83,6 @@ public class SynchronizedDome {
         service.execute(t4);
 
         service.shutdown();//执行完线程池中的线程后尽快退出
-
     }
 }
 class TicketSaler implements Runnable {
