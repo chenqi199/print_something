@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js_constructor_extends</title>
+</head>
+<body>
+<script type="text/javascript">
+    function Anlimal(){
+        this.name = name || 'anlimal';
+        this.seelp=function(){
+            return this.name+'======sleeping';
+        }
+    }
+
+    function Cat(name){
+        Anlimal.call(this);
+        this.name = name || 'tom';
+    }
+
+    var cat = new Cat();
+    console.log(cat.name);
+    console.log(cat.seelp());
+    console.log(cat instanceof Anlimal);
+    console.log(cat instanceof Cat)
+    console.log('chenqi 加油！！！')
+</script>
+</body>
+</html>

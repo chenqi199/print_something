@@ -1,0 +1,304 @@
+<!doctype html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>首页——模块管理</title>
+
+    <link href='css/style.css' rel='stylesheet'/>
+    <link href='jstree/dist/themes/default/style.min.css' rel="stylesheet"/>
+    <script type="text/JavaScript" src="js/json2.js"></script>
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="jstree/dist/jstree.js"></script>
+    <style>
+
+        #modulemanagetree {
+            overflow-y: hidden;
+        }
+
+        .jstree-default .jstree-node {
+            min-height: 31px;
+            line-height: 30px;
+            min-width: 30px;
+        }
+
+        #leftnavgator .right {
+            padding: 0;
+        }
+
+        .main .left .mune_l {
+            padding: 10px 4px 4px 4px;
+            margin-bottom: 15px;
+        }
+
+        .jstree-default .jstree-wholerow {
+            background-image: url("images/left_menuBG.gif");
+            height: 30px;
+        }
+
+        .jstree-default .jstree-wholerow-clicked {
+            background-image: url("images/left_menuBG2.gif");
+        }
+
+        .jstree-default .jstree-wholerow-hovered {
+            background-image: url("images/left_menuBG2.gif");
+        }
+
+        #modulemanagetree ul li ul li {
+            margin-left: -15px;
+        }
+
+        #modulemanagetree ul li ul {
+            margin-top: 5px;
+        }
+
+        #modulemanagetree ul li ul li .jstree-wholerow {
+            background: url("images/menu_line_obj.gif") no-repeat;
+            background-position-y: 4px;
+        }
+
+        #modulemanagetree ul li ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .jstree-default .jstree-node, .jstree-default .jstree-icon {
+            background: none;
+        }
+
+        #modulemanagetree ul:first-of-type li .jstree-icon:empty {
+            width: 40px;
+            background: url("images/icon_page.gif") no-repeat;
+            background-position-y: 4px;
+        }
+
+        #modulemanagetree ul li ul:first-of-type li .jstree-icon:empty {
+            width: 40px;
+            background: url("");
+        }
+
+        .jstree-default .jstree-themeicon {
+            display: none;
+        }
+
+        #modulemanagetree ul li ul li ul li .jstree-wholerow {
+            margin-left: 20px;
+            background: url("");
+
+        }
+
+        #modulemanagetree ul li ul li ul li {
+            margin-left: 18px;
+
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="header">
+    <div class="logo"><img src="images/logo.png"/></div>
+    <div class="mune" id="nav">
+        <ul>
+            <li><a href="#">首　页</a></li>
+            <li><a href="#" onclick="modulemanager()">模块管理</a>
+
+            </li>
+            <li><a href="#">档案管理</a></li>
+            <li><a href="#">系统维护</a></li>
+        </ul>
+    </div>
+
+</div>
+<div class="main">
+    <div class="left" id="leftnavgator">
+        <p>模块管理<a href="#"></a></p>
+
+        <div class="mune_l">
+            <div id="modulemanagetree" class="tree-demo">
+            </div>
+
+
+            <div class="right">
+                <div class="tz_gonggao"><a href="#">通知公告通知公告通知公告通知公告通知公告通知公告</a><a href="#" class="guanbi"></a></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="width: 84%;height: 550px;float: right" id="rightdiv">
+
+</div>
+
+
+<script type="text/javascript">
+
+
+    function modulemanager() {
+
+        $('#modulemanagetree'). bind("select_node.jstree", function (e, data) {
+
+            $('#modulemanagetree').jstree("toggle_node", "#" + data.node.id);
+            var getUrl = $('#modulemanagetree').jstree("get_node", "#" + data.node.id).a_attr.href;
+            if (getUrl) {
+                $("#rightdiv").load(getUrl);
+            }
+            try {
+                var treeNodes = $("#" + data.node.id).siblings();
+                for (var i = 0; i < treeNodes.length; i++) {
+                    $('#modulemanagetree').jstree("close_node", treeNodes[i]);
+                }
+                var childs = $("#" + data.node.id).find("li");
+                for (var i = 0; i < childs.length; i++) {
+                    var isHasChilds = $('#modulemanagetree').jstree("is_leaf", childs[i]);
+                    if (!isHasChilds) {
+                        var iconPrev = $(childs[i]).find(".jstree-icon").eq(0).prev();
+                        iconPrev.css({
+                            "background": "url('images/menu_line.gif') no-repeat",
+                            "background-position-y": "4px"
+                        });
+                    }
+                }
+            } catch (e) {
+            }
+        });
+
+        function init() {
+            $('#modulemanagetree').jstree({
+                core: {
+                    'expand_selected_onload': true,
+                    'tie_selection': false,
+                    "themes": {
+                        "responsive": false
+                    },
+                    check_callback: true,
+
+                    'data': function (node, callback) {
+
+                        var    result = [
+                        {
+                            "id": "gwgl",
+                                "parent": "0",
+                                "text": "公文管理",
+                                "url": "",
+                                "target": ""
+                        },
+                        {
+                            "id": "fwgl",
+                                "parent": "gwgl",
+                                "text": "发文管理",
+                                "url": "",
+                                "target": ""
+                        },
+                        {
+                            "id": "qcfw",
+                                "parent": "fwgl",
+                                "text": "起草发文",
+                                "url": "exampleUrl",
+                                "target": "content"
+                        },
+                        {
+                            "id": "fwdb",
+                                "parent": "fwgl",
+                                "text": "待办",
+                                "url": "exampleUrl",
+                                "target": "_blank"
+                        },
+                        {
+                            "id": "swgl",
+                                "parent": "gwgl",
+                                "text": "收文管理",
+                                "url": "",
+                                "target": ""
+                        },
+                        {
+                            "id": "bmsw",
+                                "parent": "swgl",
+                                "text": "部门收文",
+                                "url": "",
+                                "target": "content"
+                        },
+                        {
+                            "id": "xzbg",
+                                "parent": "0",
+                                "text": "行政办公",
+                                "url": "",
+                                "target": ""
+                        },
+                        {
+                            "id": "hygl",
+                                "parent": "xzbg",
+                                "text": "会议管理",
+                                "url": "",
+                                "target": ""
+                        },
+                        {
+                            "id": "hyqc",
+                                "parent": "hygl",
+                                "text": "起草",
+                                "url": "",
+                                "target": "_blank"
+                        }
+                        ];
+                        console.log(result.length);
+
+                        var menus = [];
+                        for (var i = 0; i<result.length;i++){
+                            menus[i] = {
+                                "id":result[i].id,
+                                "parent":result[i].parent==="0"?"#":result[i].parent,
+                                "text":result[i].text,
+                                "a_attr":{
+                                   href: result[i].url,
+                                    target:result[i].target
+                                }
+
+                            }
+                        }
+
+                        callback.call(this,menus );
+
+                        console.log(JSON.stringify(menus))
+                    }
+                },
+                plugins: ["wholerow", "contextmenu", "themes"],
+                "contextmenu": {
+                    "items": {
+                        "create": null,
+                        "rename": null,
+                        "remove": null,
+                        "ccp": null,
+                        "add": {
+                            "label": "添加",
+                            "action": function (obj) {
+                                var inst = jQuery.jstree.reference(obj.reference);
+                                var clickedNode = inst.get_node(obj.reference);
+                                alert("add operation--clickedNode's id is:" + clickedNode.id);
+                            }
+                        },
+                        "delete": {
+                            "label": "删除",
+                            "action": function (obj) {
+                                var inst = jQuery.jstree.reference(obj.reference);
+                                var clickedNode = inst.get_node(obj.reference);
+                                alert("delete operation--clickedNode's id is:" + clickedNode.id);
+                            }
+                        }
+                    }
+                },
+                themes: {
+                    theme: "default",
+                    url: false,
+                    dots: false,
+                    icons: false
+                }
+
+            });
+        }
+
+        init();
+
+console.log()
+    }
+</script>
+
+</body>
+</html>

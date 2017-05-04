@@ -1,0 +1,8 @@
+.main .left .personage_office_config {
+    position: absolute;
+    border: 1px;
+    width: 441px;
+    height: 286px;
+    background: #dde9db;
+    left: 200px;
+}
