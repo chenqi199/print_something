@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js_instance_extends</title>
+</head>
+<body>
+<script type="text/javascript">
+
+    function Anlimal(){
+        this.name= name || 'anlimal';
+        this.seelp = function(){
+            return this.name + '========sleeping';
+        }
+    }
+    function  Cat(name){
+        var instance = new Anlimal();
+        instance.name = name || 'tom';
+        return instance;
+    }
+    var cat = new Cat('jim');
+    console.log(cat.name);
+    console.log(cat.seelp());
+    console.log(cat instanceof Anlimal);
+    console.log(cat instanceof Cat);
+
+</script>
+</body>
+</html>

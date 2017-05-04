@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    function counter() {
+        var n = 0;
+        return {
+            count: function () {
+               return ++n;
+            },
+            reset: function () {
+              return  n = 0;
+            }
+        };
+
+    }
+        var a = counter(), b= counter();
+
+
+        console.log(a.count());
+        console.log(b.count());
+        console.log(a.count());
+        console.log(b.count());
+        console.log(a.count());
+        console.log(b.reset());
+        console.log(a.count());
+        console.log(b.count());
+        console.log(a.reset());
+</script>
+</html>

@@ -1,0 +1,172 @@
+<!doctype html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>首页——模块管理</title>
+
+    <link href='../css/style.css' rel='stylesheet'/>
+    <link href='../jstree/dist/themes/default/style.min.css' rel="stylesheet"/>
+    <script type="text/javascript" src="../js/json2.js"></script>
+
+    <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../jstree/dist/jstree.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <style>
+
+
+    </style>
+</head>
+
+<body>
+<div class="header">
+    <div class="logo"><img src="images/logo.png"/></div>
+    <div class="mune" id="nav">
+        <ul>
+            <li><a href="#">首　页</a></li>
+            <li><a href="#" onclick="modulemanager()">模块管理</a>
+
+            </li>
+            <li><a href="#">档案管理</a></li>
+            <li><a href="#">系统维护</a></li>
+        </ul>
+    </div>
+
+</div>
+<div class="main">
+    <div class="left" id="leftnavgator">
+        <p>模块管理<a href="#"></a></p>
+
+        <div class="mune_l">
+            <div id="modulemanagetree" class="tree-demo">
+            </div>
+
+
+            <div class="right">
+                <div class="tz_gonggao"><a href="#">通知公告通知公告通知公告通知公告通知公告通知公告</a><a href="#" class="guanbi"></a></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="width: 84%;height: 550px;float: right" id="rightdiv">
+
+</div>
+
+
+<script type="text/javascript">
+    function getmenus(jsonMenus,parent){//获取二级节点为根节点
+        var menus = [];
+
+        for (var i = 0; i<jsonMenus.length;i++){
+            if (jsonMenus[i].id!=parent){
+                menus.push( {
+                    "id":jsonMenus[i].id,
+                    "parent":jsonMenus[i].parent===parent?"#":jsonMenus[i].parent,
+                    "text":jsonMenus[i].text,
+                    "a_attr":{
+                        href: result[i].url,
+                        target:result[i].target
+                    }
+                })
+
+            }
+
+        }
+        console.log(JSON.stringify(menus));
+        return menus;
+    }
+
+    function modulemanager() {
+
+        $('#modulemanagetree'). bind("select_node.jstree", function (e, data) { //左键单击事件
+            //触发toggle_node 事件
+            $('#modulemanagetree').jstree("toggle_node", "#" + data.node.id);//展开点击事件对象子节点
+            var getUrl = $('#modulemanagetree').jstree("get_node", "#" + data.node.id).a_attr.href;
+            if (getUrl) {
+                $("#rightdiv").load(getUrl);
+            }
+            try {
+                var treeNodes = $("#" + data.node.id).siblings();
+                for (var i = 0; i < treeNodes.length; i++) {
+                    $('#modulemanagetree').jstree("close_node", treeNodes[i]);//关闭点击事件对象的兄弟节点
+                }
+                var childs = $("#" + data.node.id).find("li");
+                for (var i = 0; i < childs.length; i++) {
+                    var isHasChilds = $('#modulemanagetree').jstree("is_leaf", childs[i]);
+                    if (!isHasChilds) {
+                        /*var iconPrev = $(childs[i]).find(".jstree-icon").eq(0).prev();*/
+                        /* iconPrev.css({*/
+                        /*     "background": "url('images/menu_line.gif') no-repeat"    */
+                        /* });*/
+                    }
+                    /**/
+                }
+            } catch (e) {
+            }
+        });
+
+        function init() {
+            $('#modulemanagetree').jstree({
+                core: {
+
+                    'tie_selection': false,
+                    "themes": {
+                        "responsive": false
+                    },
+                    check_callback: true,
+
+
+                    'data': function (node, callback) {
+
+                        var url = 'http://10.6.30.122:8088/tansonjsondemo/menu/getmenu.do';
+                         var    result = E.ajaxGetResult(url, true, 'json');
+//
+                        callback.call(this, result);
+                        alert(JSON.stringify(jsonarray))
+                    }
+                },
+                plugins: ["wholerow", "contextmenu", "themes"],//指定使用哪些插件
+                "contextmenu": {                    //自定义右键点击事件
+                    "items": {
+                        "create": null,
+                        "rename": null,
+                        "remove": null,
+                        "ccp": null,
+                        "add": {
+                            "label": "添加",
+                            "action": function (obj) {
+                                var inst = jQuery.jstree.reference(obj.reference);
+                                var clickedNode = inst.get_node(obj.reference);
+                                alert("add operation--clickedNode's id is:" + clickedNode.id);
+                            }
+                        },
+                        "delete": {
+                            "label": "删除",
+                            "action": function (obj) {
+                                var inst = jQuery.jstree.reference(obj.reference);
+                                var clickedNode = inst.get_node(obj.reference);
+                                alert("delete operation--clickedNode's id is:" + clickedNode.id);
+                            }
+                        }
+                    }
+                },
+                themes: {        //themes插件设置
+                    theme: "default", //设置theme主题，默认是"default"，可选值：default、apple、classic、default-rtl
+                    url: false,        //设置theme css文件的路径
+                    dots: false,        //是否显示虚线点
+                    icons: false    //是否显示节点前的图标，$("a > ins.jstree-icon")
+                }
+//
+            });
+        }
+
+        init();
+        /*
+         changeIcon();
+         */
+
+    }
+</script>
+
+</body>
+</html>
