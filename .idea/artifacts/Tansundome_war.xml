@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="Tansundome:war">
-    <output-path>$PROJECT_DIR$/tansunjsondome/target</output-path>
-    <root id="archive" name="Tansundome-0.0.1-SNAPSHOT.war">
-      <element id="artifact" artifact-name="Tansundome:war exploded" />
-    </root>
-  </artifact>
-</component>

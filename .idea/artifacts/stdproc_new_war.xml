@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="stdproc-new:war">
-    <output-path>$PROJECT_DIR$/learn/target</output-path>
-    <root id="archive" name="stdproc-new-1.0.6.war">
-      <element id="artifact" artifact-name="stdproc-new:war exploded" />
-    </root>
-  </artifact>
-</component>
