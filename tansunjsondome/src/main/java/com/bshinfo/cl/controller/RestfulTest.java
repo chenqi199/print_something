@@ -18,7 +18,7 @@ public class RestfulTest {
     @RequestMapping(value = "/{id}", method = RequestMethod.GET, produces = "text/html;charset=UTF-8")
     @ResponseBody
     public String index(@PathVariable("id") String id) throws UnsupportedEncodingException {
-       return new String(id.getBytes("iso8859-1"),"utf-8");
+       return new    String(id.getBytes("iso8859-1"),"utf-8");
     }
 
 
