@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>闭包实现</title>
+</head>
+<body>
+<div id="biBaoTest">
+    <a href="">this is a link</a>
+    <ul>
+        <li>this is li tag1</li>
+        <li>this is li tag2</li>
+        <li>this is li tag3</li>
+        <li>this is li tag4</li>
+        <li>this is li tag5</li>
+    </ul>
+</div>
+</body>
+<script src="../js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript">
+    var bodydiv = function () {
+        var $div = $('#biBaoTest');
+        var initfn = function () {
+            $div.find('li').each(function (i, obj) {
+                console.log($(obj).text());
+            });
+            $div.on('click','li',function (e) {
+                console.log(e.currentTarget);
+            })
+        };
+        return {
+            init: function () {
+//                debugger;
+                initfn();
+//                console.trace(initfn())
+//                console.debug( initfn());
+            }
+        }
+    }();
+            $(document).ready(function () {
+                bodydiv.init();
+            })
+</script>
+</html>

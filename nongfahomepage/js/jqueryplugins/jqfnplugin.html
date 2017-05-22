@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jq插件扩展$.fn.method</title>
+</head>
+<body>
+<div>
+
+    <ul>
+        <li>this is 1</li>
+        <li>this is 2</li>
+        <li>this is 3</li>
+        <li>this is 4</li>
+    </ul>
+</div>
+<input type="button" value="变红" name="abc" id="aaa">
+<script src="jquery-1.9.1.min.js"></script>
+<script type="text/javascript">
+    $.fn.myfunction=function () {
+        this.css("color","red");
+    };
+    $('#aaa').on('click',function () {
+        $('li:last').myfunction();
+    });
+</script>
+</body>
+</html>
