@@ -5,7 +5,8 @@
 *.ipr
 *.iws
 out
- target
+*.class
+/target/
 # Eclipse Project files
 .classpath
 .project
