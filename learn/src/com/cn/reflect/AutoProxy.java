@@ -21,6 +21,12 @@ class DaoImpl implements DaoI {
         System.out.println("执行保存方法【doSave】");
     }
 
+    /**
+     * @param id
+     * @Author chenqi
+     * @date 2017/5/15 0015 : 23:18
+     * @descrption :
+     */
     @Override
     public Object getById(String id) {
         System.out.println("执行根据ID查找对象方法【getById】");
