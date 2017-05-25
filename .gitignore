@@ -1,27 +1,29 @@
-# Lines that start with '#' are comments.
-# IntelliJ IDEA Project files
-.idea
-*.iml
-*.ipr
-*.iws
-out
-*.class
-/target/
-# Eclipse Project files
-.classpath
-.project
+# maven ignore
+target/
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+
+# eclipse ignore
 .settings/
- 
-bin/
-gen/
-local.properties
- 
+.project
+.classpath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
 .DS_Store
 Thumbs.db
- 
-*.bak
-*.tem
-*.temp
-#.swp
-*.*~
-~*.*
