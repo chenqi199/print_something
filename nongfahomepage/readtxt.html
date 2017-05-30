@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+    var fso, ts, s ;
+    var ForReading = 1;
+
+    fso = new ActiveXObject('Scripting.FileSystemObject');
+    ts = fso.OpenTextFile("E:\\download\\qqdownload\\892854990\\FileRecv\\代理商信息表-给产品5.27.txt", ForReading);
+    s = ts.ReadLine();
+    document.getElementById("aa").innerHTML=s;
+    console.log(s);
+</script>
+
+</html>

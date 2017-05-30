@@ -12,12 +12,12 @@ public class MyTestGetFilePah {
 
 
     public static String getFilePath() throws IOException {
-        String springconfig = MyTestGetFilePah.class.getClassLoader().getResource("aaa.txt").getPath();
+        String springconfig = MyTestGetFilePah.class.getClassLoader().getResource("abcd.txt").getPath();
 //        String springcon = MyTestGetFilePah.class.getClassLoader().getResource("").getPath();
 //        System.out.println(springconfig);
 //        System.out.println(springcon);
         InputStreamReader inputStreamReader = new InputStreamReader((new FileInputStream(springconfig)),"utf-8");
-        File file = new File("mytestwrite.xml");
+        File file = new File("furck.html");
 
         if(!file.exists()){
             file.createNewFile();
@@ -36,7 +36,7 @@ public class MyTestGetFilePah {
             BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
         String readline;
         while ((readline=bufferedReader.readLine())!=null){
-            System.out.println(readline);
+            readline = "<li>"+readline+"</li>";
             fileWriter.write(readline+"\r\n");
 
         }
