@@ -24,7 +24,7 @@
             $div.find('li').each(function (i, obj) {
                 console.log($(obj).text());
             });
-            $div.on('click','li',function (e) {
+            $div.on('click', 'li', function (e) {
                 console.log(e.currentTarget);
             })
         };
@@ -34,10 +34,11 @@
                 initfn();
 //                console.trace(initfn())
 //                console.debug( initfn());
-       }
+            }
+        }
     }();
-            $(document).ready(function () {
-                bodydiv.init();
-            });
+    $(document).ready(function () {
+        bodydiv.init();
+    });
 </script>
 </html>

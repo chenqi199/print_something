@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script src="../js/jqueryplugins/jquery-1.9.1.min.js"></script>
+<script type="text/javascript">
+    $.extend({
+        log: function(message) {
+            var now = new Date(),
+                y = now.getFullYear(),
+                m = now.getMonth() + 1, //！JavaScript中月分是从0开始的
+                d = now.getDate(),
+                h = now.getHours(),
+                min = now.getMinutes(),
+                s = now.getSeconds(),
+                time = y + '/' + m + '/' + d + ' ' + h + ':' + min + ':' + s;
+            console.log(time + ' My App: ' + message);
+        }
+    });
+    $.log('initializing...'); //调用
+    Aarray.isArray([]);
+</script>
+</html>
