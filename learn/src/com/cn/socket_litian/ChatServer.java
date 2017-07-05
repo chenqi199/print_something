@@ -14,7 +14,7 @@ import java.util.Scanner;
 
 // 服务器类
 public class ChatServer {
-    private int port = 8189;// 默认服务器端口
+    private int port = 10086;// 默认服务器端口
 
     public ChatServer() {
     }

@@ -11,8 +11,8 @@ import java.util.Scanner;
  */
 // 客户端类
 public class ChatClient {
-    private String host = "localhost";// 默认连接到本机
-    private int port = 8189;// 默认连接到端口8189
+    private String host = "192.168.43.10";// 默认连接到本机
+    private int port = 10086;// 默认连接到端口8189
 
     public ChatClient() {
 
